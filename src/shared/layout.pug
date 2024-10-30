@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    block title
+    style.
+      .navigation > a:not(:first-child) {
+        margin-left: 8px;
+      }
+    block scripts
+  body
+    nav.navigation
+      a(href="/") Home
+    block headline
+    #output
